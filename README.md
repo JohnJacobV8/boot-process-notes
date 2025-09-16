@@ -1,38 +1,55 @@
-# Proceso de Arranque y Encendido de una Computadora
-Este documento resume lo aprendido en el curso **Fundamentos de Ingeniería de Software de Platzi**, sobre cómo se inicia un computador al presionar el botón de encendido.  
-El proceso es fundamental porque determina si el sistema podrá iniciar correctamente y hacerlo de forma segura.
+# Boot Process and Startup of a Computer
 
-## Etapas principales
+This document summarizes the learning from my **Software Engineering Fundamentals certification at Platzi**, about how a computer starts when the power button is pressed.  
+The process is fundamental because it determines whether the system can start correctly and do so securely.  
+
+---
+
+## Main Stages
 
 ### 1. BIOS (Basic Input/Output System)  
-- Inicializa y prueba los componentes básicos.  
-- Permite la comunicación entre el sistema operativo y los dispositivos.  
+- Initializes and tests basic hardware components.  
+- Enables communication between the operating system and devices.  
 
 ### 2. POST (Power-On Self Test)  
-- Verifica que memoria, teclado, video y otros componentes funcionen correctamente.  
-- Si ocurre un error, muestra mensajes o señales sonoras.  
+- Verifies that memory, keyboard, video, and other components function correctly.  
+- If an error occurs, it shows messages or beep codes.  
 
 ### 3. Bootloader  
-- Programa que transfiere el control al sistema operativo.  
-- Ejemplos: GRUB (Linux), Windows Boot Manager.  
+- Program that transfers control to the operating system.  
+- Examples: GRUB (Linux), Windows Boot Manager.  
 
-## Detalles del proceso
-- El usuario enciende la computadora.  
-- La energía eléctrica viaja desde la fuente hacia los circuitos, iniciando el proceso automático.  
-- El BIOS despierta y ejecuta el POST.  
-- Si el POST es exitoso, el bootloader carga el sistema operativo en memoria.  
-- El sistema operativo toma el control y habilita la interacción con el usuario.  
+---
 
+## Default Process Flow  
 
-## Importancia en Ciberseguridad
-Comprender este flujo permite identificar puntos de vulnerabilidad:  
-- Malware en el sector de arranque (MBR, bootkits).  
-- Manipulación del BIOS/UEFI.  
-- Seguridad en el arranque mediante UEFI y Secure Boot.  
+1. The user presses the power button.  
+2. The electrical signal travels from the power source through the circuits, starting the automatic process.  
+3. BIOS is executed and runs the POST.  
+4. If POST is successful, the bootloader loads the operating system into memory.  
+5. The OS takes control and enables user interaction.  
 
+---
 
-## Conclusión
-El arranque de un computador es mucho más que una pantalla negra con texto:  
-es la base que permite que todo el sistema funcione. Conocerlo es esencial para entender cómo trabajan nuestros dispositivos y cómo asegurar su integridad en el contexto de la **ciberseguridad**.
+## Cybersecurity Relevance  
+
+Understanding this process helps identify points of vulnerability:  
+
+- Malware in the boot sector (MBR, bootkits).  
+- Manipulation of the BIOS/UEFI.  
+- Security in startup settings like TPM and Secure Boot.  
+
+---
+
+## Conclusion  
+
+The boot process of a computer is much more than just a black screen with text:  
+It is the foundation that allows the entire system to function. Knowing it is essential to understand how our devices work and how to ensure their integrity in the context of **cybersecurity**.  
+
+---
+
+👉 [Visit my GitHub profile](https://github.com/JohnJacobV8)  
+👉 [Connect with me on LinkedIn](https://www.linkedin.com/in/johnjacobv8)  
+🌐 Languages: Spanish (native), English C1 (advanced professional)  
 
 ![rjywryjhwr](https://github.com/user-attachments/assets/f64c613e-7bb6-4270-910a-7aed2128e9cf)
